@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# This file runs when a DM logs you into graphical session.
+
+xrdb -merge $HOME/.config/x11/Xresources &
+mpd &
+reMaps.sh &
+setResolution.sh
+setBackground.sh &
+picom &
+unclutter &
+xsetroot -cursor_name left_ptr &
+$HOME/.config/polybar/launch.sh &
+alacritty -e calcurse &
+alacritty -e gotop &
+alacritty -e pipes.sh &
+bspwm

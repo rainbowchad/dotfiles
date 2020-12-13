@@ -1,0 +1,1 @@
+/home/devuser/.config/rofi/launchers/text/launcher.sh
