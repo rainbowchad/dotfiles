@@ -32,4 +32,4 @@ except:
 
 s.upload(pre_allocate=False)
 s.download()
-print("▼ " + get_formatted_speed(s.results.download,args.bytes) + " ▲ " + get_formatted_speed(s.results.upload,args.bytes) + "  ")
+print("▲ " + get_formatted_speed(s.results.upload,args.bytes) + " " + "▼ " + get_formatted_speed(s.results.download,args.bytes) + "  ")

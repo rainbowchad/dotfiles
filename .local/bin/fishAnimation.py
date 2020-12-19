@@ -4,7 +4,7 @@ import time
 
 if __name__=="__main__" :
     max = 12
-    with open( "/home/devuser/.local/bin/.space.txt", 'r+' ) as file:
+    with open( "/home/l0vfamenppl/.local/bin/.space.txt", 'r+' ) as file:
         time.sleep(0.9)
         line = file.read( )
         line = line.strip( )
